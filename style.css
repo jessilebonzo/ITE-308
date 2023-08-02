@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.all-content{
+  background: #D4E9E2;
+}
+html ::-webkit-scrollbar-track{
+  background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+  background: #8a7b7b;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+  width: 10px;
+}
+
+/* navbar start */
+a.navbar-brand {
+  font-family: cursive;
+  font-size: x-large;
+}
+.navbar{
+  background-color: #db7598;
+  ;
+}
+.bg-dark {
+  --bs-bg-opacity: 0;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.navbar form button{
+  background: black;
+  color: rgb(194, 172, 172);
+  border: 1px solid white;
+}
+/* nav-end */
+
+
+/* home menu section start */
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+  font-family: cursive;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+img {
+  background-color: #999970;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div{
+  padding: 6px;
+}
+.btn-primary, .btn-primary:hover, .btn-priamry focus, .btn-light:active {
+  background-color: #cb376a !important;
+  background-color: #ca396c !important ;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  font-style: normal;
+  text-shadow: #cb376aca;
+}
+.container-btn{
+  text-align: center;
+}
+/* home menu section end */
